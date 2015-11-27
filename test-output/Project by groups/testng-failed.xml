@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Project by groups]">
+  <test name="GRP-1,3,4(failed)">
+    <groups>
+      <run>
+        <include name="1"/>
+        <include name="3"/>
+        <include name="4"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="Training.Project.SmokeTest">
+        <methods>
+          <include name="validCredentials"/>
+          <include name="ShoppingCart_Summary"/>
+          <include name="closeBrowser"/>
+          <include name="loginToApp"/>
+          <include name="navigateToHome"/>
+        </methods>
+      </class> <!-- Training.Project.SmokeTest -->
+    </classes>
+  </test> <!-- GRP-1,3,4(failed) -->
+</suite> <!-- Failed suite [Project by groups] -->

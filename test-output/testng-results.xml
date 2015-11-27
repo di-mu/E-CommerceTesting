@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="7" passed="7">
+  <reporter-output>
+    <line>
+      <![CDATA[in properties qa loop]]>
+    </line>
+    <line>
+      <![CDATA[in browser loop]]>
+    </line>
+    <line>
+      <![CDATA[in browser loop]]>
+    </line>
+    <line>
+      <![CDATA[in browser loop]]>
+    </line>
+    <line>
+      <![CDATA[in browser loop]]>
+    </line>
+    <line>
+      <![CDATA[in browser loop]]>
+    </line>
+    <line>
+      <![CDATA[in browser loop]]>
+    </line>
+    <line>
+      <![CDATA[in browser loop]]>
+    </line>
+    <line>
+      <![CDATA[URL ishttp://softtest247.com/presta/index.php]]>
+    </line>
+    <line>
+      <![CDATA[userName ismavenproject22@gmail.com]]>
+    </line>
+    <line>
+      <![CDATA[password isMyProject]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="48303" started-at="2015-10-07T15:35:58Z" finished-at="2015-10-07T15:36:46Z">
+    <groups>
+      <group name="1">
+        <method signature="SmokeTest.validCredentials()[pri:1, instance:Training.Project.SmokeTest@1330d4f]" name="validCredentials" class="Training.Project.SmokeTest"/>
+      </group> <!-- 1 -->
+      <group name="3">
+        <method signature="SmokeTest.search_Product()[pri:3, instance:Training.Project.SmokeTest@1330d4f]" name="search_Product" class="Training.Project.SmokeTest"/>
+      </group> <!-- 3 -->
+      <group name="4">
+        <method signature="SmokeTest.ShoppingCart_Summary()[pri:4, instance:Training.Project.SmokeTest@1330d4f]" name="ShoppingCart_Summary" class="Training.Project.SmokeTest"/>
+      </group> <!-- 4 -->
+      <group name="5">
+        <method signature="SmokeTest.DeleteItem()[pri:5, instance:Training.Project.SmokeTest@1330d4f]" name="DeleteItem" class="Training.Project.SmokeTest"/>
+      </group> <!-- 5 -->
+      <group name="6">
+        <method signature="SmokeTest.ShoppingCart_Address()[pri:6, instance:Training.Project.SmokeTest@1330d4f]" name="ShoppingCart_Address" class="Training.Project.SmokeTest"/>
+      </group> <!-- 6 -->
+      <group name="7">
+        <method signature="SmokeTest.ShoppingCart_Carrier()[pri:7, instance:Training.Project.SmokeTest@1330d4f]" name="ShoppingCart_Carrier" class="Training.Project.SmokeTest"/>
+      </group> <!-- 7 -->
+      <group name="8">
+        <method signature="SmokeTest.ShoppingCart_Payment()[pri:8, instance:Training.Project.SmokeTest@1330d4f]" name="ShoppingCart_Payment" class="Training.Project.SmokeTest"/>
+      </group> <!-- 8 -->
+      <group name="sanity">
+        <method signature="SmokeTest.DeleteItem()[pri:5, instance:Training.Project.SmokeTest@1330d4f]" name="DeleteItem" class="Training.Project.SmokeTest"/>
+        <method signature="SmokeTest.ShoppingCart_Address()[pri:6, instance:Training.Project.SmokeTest@1330d4f]" name="ShoppingCart_Address" class="Training.Project.SmokeTest"/>
+        <method signature="SmokeTest.ShoppingCart_Carrier()[pri:7, instance:Training.Project.SmokeTest@1330d4f]" name="ShoppingCart_Carrier" class="Training.Project.SmokeTest"/>
+        <method signature="SmokeTest.ShoppingCart_Payment()[pri:8, instance:Training.Project.SmokeTest@1330d4f]" name="ShoppingCart_Payment" class="Training.Project.SmokeTest"/>
+        <method signature="SmokeTest.ShoppingCart_Summary()[pri:4, instance:Training.Project.SmokeTest@1330d4f]" name="ShoppingCart_Summary" class="Training.Project.SmokeTest"/>
+        <method signature="SmokeTest.search_Product()[pri:3, instance:Training.Project.SmokeTest@1330d4f]" name="search_Product" class="Training.Project.SmokeTest"/>
+        <method signature="SmokeTest.validCredentials()[pri:1, instance:Training.Project.SmokeTest@1330d4f]" name="validCredentials" class="Training.Project.SmokeTest"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test name="Default test" duration-ms="48303" started-at="2015-10-07T15:35:58Z" finished-at="2015-10-07T15:36:46Z">
+      <class name="Training.Project.SmokeTest">
+        <test-method status="PASS" signature="loginToApp()[pri:0, instance:Training.Project.SmokeTest@1330d4f]" name="loginToApp" is-config="true" duration-ms="10517" started-at="2015-10-07T11:35:47Z" finished-at="2015-10-07T11:35:58Z">
+          <reporter-output>
+            <line>
+              <![CDATA[URL ishttp://softtest247.com/presta/index.php]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginToApp -->
+        <test-method status="PASS" signature="validCredentials()[pri:1, instance:Training.Project.SmokeTest@1330d4f]" name="validCredentials" duration-ms="4707" started-at="2015-10-07T11:35:58Z" description="login_Positive" finished-at="2015-10-07T11:36:02Z">
+          <reporter-output>
+            <line>
+              <![CDATA[userName ismavenproject22@gmail.com]]>
+            </line>
+            <line>
+              <![CDATA[password isMyProject]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validCredentials -->
+        <test-method status="PASS" signature="navigateToHome()[pri:0, instance:Training.Project.SmokeTest@1330d4f]" name="navigateToHome" is-config="true" duration-ms="0" started-at="2015-10-07T11:36:02Z" finished-at="2015-10-07T11:36:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToHome -->
+        <test-method status="PASS" signature="search_Product()[pri:3, instance:Training.Project.SmokeTest@1330d4f]" name="search_Product" duration-ms="5195" started-at="2015-10-07T11:36:02Z" description="search Product" finished-at="2015-10-07T11:36:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search_Product -->
+        <test-method status="PASS" signature="navigateToHome()[pri:0, instance:Training.Project.SmokeTest@1330d4f]" name="navigateToHome" is-config="true" duration-ms="0" started-at="2015-10-07T11:36:08Z" finished-at="2015-10-07T11:36:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToHome -->
+        <test-method status="PASS" signature="ShoppingCart_Summary()[pri:4, instance:Training.Project.SmokeTest@1330d4f]" name="ShoppingCart_Summary" duration-ms="2998" started-at="2015-10-07T11:36:08Z" description="Shopping Cart - Summary" finished-at="2015-10-07T11:36:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ShoppingCart_Summary -->
+        <test-method status="PASS" signature="navigateToHome()[pri:0, instance:Training.Project.SmokeTest@1330d4f]" name="navigateToHome" is-config="true" duration-ms="1" started-at="2015-10-07T11:36:11Z" finished-at="2015-10-07T11:36:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToHome -->
+        <test-method status="PASS" signature="DeleteItem()[pri:5, instance:Training.Project.SmokeTest@1330d4f]" name="DeleteItem" duration-ms="3159" started-at="2015-10-07T11:36:11Z" description="Delete Item" finished-at="2015-10-07T11:36:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteItem -->
+        <test-method status="PASS" signature="navigateToHome()[pri:0, instance:Training.Project.SmokeTest@1330d4f]" name="navigateToHome" is-config="true" duration-ms="1" started-at="2015-10-07T11:36:14Z" finished-at="2015-10-07T11:36:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToHome -->
+        <test-method status="PASS" signature="ShoppingCart_Address()[pri:6, instance:Training.Project.SmokeTest@1330d4f]" name="ShoppingCart_Address" duration-ms="14610" started-at="2015-10-07T11:36:14Z" description="Shopping Cart - Address" finished-at="2015-10-07T11:36:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ShoppingCart_Address -->
+        <test-method status="PASS" signature="navigateToHome()[pri:0, instance:Training.Project.SmokeTest@1330d4f]" name="navigateToHome" is-config="true" duration-ms="0" started-at="2015-10-07T11:36:28Z" finished-at="2015-10-07T11:36:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToHome -->
+        <test-method status="PASS" signature="ShoppingCart_Carrier()[pri:7, instance:Training.Project.SmokeTest@1330d4f]" name="ShoppingCart_Carrier" duration-ms="3745" started-at="2015-10-07T11:36:28Z" description="Shopping Cart - Carrier" finished-at="2015-10-07T11:36:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ShoppingCart_Carrier -->
+        <test-method status="PASS" signature="navigateToHome()[pri:0, instance:Training.Project.SmokeTest@1330d4f]" name="navigateToHome" is-config="true" duration-ms="3" started-at="2015-10-07T11:36:32Z" finished-at="2015-10-07T11:36:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToHome -->
+        <test-method status="PASS" signature="ShoppingCart_Payment()[pri:8, instance:Training.Project.SmokeTest@1330d4f]" name="ShoppingCart_Payment" duration-ms="13842" started-at="2015-10-07T11:36:32Z" description="Shopping Cart - Carrier" finished-at="2015-10-07T11:36:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ShoppingCart_Payment -->
+        <test-method status="PASS" signature="navigateToHome()[pri:0, instance:Training.Project.SmokeTest@1330d4f]" name="navigateToHome" is-config="true" duration-ms="0" started-at="2015-10-07T11:36:46Z" finished-at="2015-10-07T11:36:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToHome -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Training.Project.SmokeTest@1330d4f]" name="closeBrowser" is-config="true" duration-ms="1" started-at="2015-10-07T11:36:46Z" finished-at="2015-10-07T11:36:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- Training.Project.SmokeTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
